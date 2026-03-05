@@ -1,7 +1,7 @@
 import "./NavBar.css"
-import fetachMovies from "./Movies.jsx"
+import {fetachMovies} from "./Movies.jsx"
 
-const data =await fetachMovies()
+const data = await fetachMovies()
 
 function inputCHecng(e) {
     return e.target.value

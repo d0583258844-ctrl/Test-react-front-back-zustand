@@ -1,0 +1,28 @@
+.main-grid {
+    display: grid;
+    border-top: 5px solid lightcoral;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+
+.queb  {
+    display: flex;
+    border: 1px solid gray;
+    padding: 1rem;
+    gap: 1rem;
+    max-width: fit-content;
+    max-width: fit-content;
+}
+
+.image {
+    max-height: fit-content;
+    max-height: fit-content;
+}
+
+.para {
+    display: flex;
+    justify-content: space-around;
+}
+
