@@ -1,4 +1,5 @@
 import './App.css'
+import NavBar from './components/NavBar.jsx'
 // import { useState } from 'react'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 
   return (
     <>
+    <NavBar/>
     </>
   )
 }
